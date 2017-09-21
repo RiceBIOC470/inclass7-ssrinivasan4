@@ -29,6 +29,5 @@
 % D. Use the protein_id to read the information on the protein. Use the
 % information you read to determine where the homeobox domain of the protein is.
 % Hint: see the field "Features". 
-    %prot=getgenpept(gen_info.CDS.protein_id);
-    %prot.Features
-    %the region is 190-242
+prot=getgenpept(gen_info.CDS.protein_id);
+prot.Features
